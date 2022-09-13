@@ -3,7 +3,7 @@ docker-build:
 
 
 docker-run-jupyter:
-	docker run -p 8888:8888 --rm -v $PWD:/home/jovyan/ -t dsbook_container
+	docker run -p 8888:8888 --rm -v $(PWD):/home/jovyan/ -t dsbook_container
 
 
 docker-run-terminal:
