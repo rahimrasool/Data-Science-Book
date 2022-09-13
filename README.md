@@ -48,8 +48,10 @@ $ git push -u origin main
 
 6. Publish changes to the website using:
 ```
-$ ghp ghp-import -n -p -f ds_content/_build/html
+$ ghp-import -n -p -f ds_content/_build/html
 ```
 
 7. Exit docker enviroment by typing exit on your terminal.
+
+8. View website on https://rahimrasool.github.io/dsbook_test/
 
